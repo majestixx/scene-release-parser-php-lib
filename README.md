@@ -7,7 +7,7 @@ The library contains two classes: SceneParser and SceneParserGuessr
 Scene Parser is splitting the information from scene release dir names and creates an object with easy access to all information.
 
 Example (from sceneParserDemo.php):
-'''
+```
 $release = new SceneParser("Angriff.der.Urzeitmonster.German.2006.COMPLETE.PAL.DVDR-MOViEiT");
 
 print("\nType: ");
@@ -39,7 +39,7 @@ print_r($release->getGroup()); // Return: MOViEiT
 
 print("\nAdditional Flags: ");
 print_r($release->getAdditionalFlags()); // Return: Array with COMPLETE & PAL
-'''
+```
 
 For tv shows also the episode and season can be extracted.
 
