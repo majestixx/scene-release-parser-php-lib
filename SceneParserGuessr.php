@@ -1,5 +1,5 @@
 <?php
-require_once('sceneParser.php');
+require_once('SceneParser.php');
 
 /**
  * this extends sceneParser by trying to guess certain values
