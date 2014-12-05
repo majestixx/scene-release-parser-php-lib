@@ -7,14 +7,14 @@ class SceneParser {
 
 // ##### CLASS CONSTANTS #####
 	protected static $sources = array ('hdtv' => 'HDTV', 'webtv' => 'WebTV', 'hdtvrip' => 'HDTVRip', 'pdtv' => 'PDTV', 'sdtv' => 'SDTV',
-					'ahdtv' => 'AHDTV', 'dsr' => 'DSR', 'dvd' => 'DVD', 'webrip' => 'Webrip', 'webhd' => 'WebHD', 'dvdr' => 'DVDR', 'bluray' => 'BluRay',
-					'r5' => 'R5', 'bdr' => 'BDR', 'bdrip' => 'BDRip', 'dvdrip' => 'DVDRip');
+					'ahdtv' => 'AHDTV', 'dsr' => 'DSR', 'dvd' => 'DVD', 'webrip' => 'Web-Rip', 'webhd' => 'WebHD', 'dvdr' => 'DVD-R', 'bluray' => 'Blu-ray',
+					'r5' => 'R5', 'bdr' => 'BDR', 'bdrip' => 'BDRip', 'dvdrip' => 'DVD-Rip');
 
 	protected static $encodings = array ('divx' => 'DivX', 'xvid' => 'XviD', 'x264' => 'x264', 'h264' => 'h264');
 
 	protected static $resolutions = array ('sd' => 'SD', '720p' => '720p', '1080p' => '1080p');
 
-	protected static $dubs = array ('dubbed' => 'DUBBED', 'ac3.dubbed' => 'AC3.Dubbed', 'md' => 'MD', 'ld' => 'LD');
+	protected static $dubs = array ('dubbed' => 'DUBBED', 'ac3.dubbed' => 'AC3.Dubbed', 'md' => 'MD', 'ld' => 'LineDubbed');
 
 	protected static $additionalFlagsList = array(
 		'proper' => 'PROPER',
@@ -127,7 +127,7 @@ The.Fellowship.Of.The.Ring.Goes.To.Bahamas.2012.BluRay.1080p.BluRay.3D.DTS-HD.MA
 	 * Source
 	 * either
 	 *   TV: HDTV, WebTV, HDTVRip, PDTV, SDTV, AHDTV, DSR
-	 *   Movie: DVD, Webrip, DVDR, BluRay, R5, BDR, BDRip, DVDRip
+	 *   Movie: DVD, Web-Rip, DVDR, Blu-ray, R5, BDR, BDRip, DVD-Rip
 	 *   @see self::$sources
 	 * @var string
 	 */

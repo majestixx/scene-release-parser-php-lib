@@ -1,5 +1,5 @@
 <?php
-require_once "sceneParser.php";
+require_once "SceneParser.php";
 
 $release = new SceneParser("Angriff.der.Urzeitmonster.German.2006.COMPLETE.PAL.DVDR-MOViEiT");
 

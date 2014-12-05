@@ -11,12 +11,12 @@ class SceneParserGuessr extends SceneParser {
 	// ##### CLASS CONSTANTS #####
 	protected static $sdsources = array ('webtv' => 'WebTV', 'hdtvrip' => 'HDTVRip',
 			'pdtv' => 'PDTV', 'sdtv' => 'SDTV', 'dsr' => 'DSR', 'dvd' => 'DVD',
-			'webrip' => 'Webrip', 'dvdr' => 'DVDR', 'r5' => 'R5', 'bdrip' => 'BDRip',
-			'dvdrip' => 'DVDRip');
+			'webrip' => 'Web-Rip', 'dvdr' => 'DVD-R', 'r5' => 'R5', 'bdrip' => 'BDRip',
+			'dvdrip' => 'DVD-Rip');
 
 	protected static $hd720sources = array ('hdtv' => 'HDTV',	'ahdtv' => 'AHDTV', 'webhd' => 'WebHD');
 
-	protected static $hd1080sources = array ('bluray' => 'BluRay', 'bdr' => 'BDR');
+	protected static $hd1080sources = array ('bluray' => 'Blu-ray', 'bdr' => 'BDR');
 
 	// ##### CLASS PROPERTIES #####
 
