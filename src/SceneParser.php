@@ -1,4 +1,5 @@
 <?php
+namespace ReleaseParser;
 /**
  * Scene Parser Class
  * Parses an scene release name into its parts
@@ -6,9 +7,68 @@
 class SceneParser {
 
 // ##### CLASS CONSTANTS #####
-	protected static $sources = array ('hdtv' => 'HDTV', 'webtv' => 'WebTV', 'hdtvrip' => 'HDTVRip', 'pdtv' => 'PDTV', 'sdtv' => 'SDTV',
-					'ahdtv' => 'AHDTV', 'dsr' => 'DSR', 'dvd' => 'DVD', 'webrip' => 'Web-Rip', 'webhd' => 'WebHD', 'dvdr' => 'DVD-R', 'bluray' => 'Blu-ray',
-					'r5' => 'R5', 'bdr' => 'BDR', 'bdrip' => 'BDRip', 'dvdrip' => 'DVD-Rip');
+	protected static $sources = array (
+    'hdtv' => 'HDTV', 
+    'webtv' => 'WebTV', 
+    'hdtvrip' => 'HDTVRip', 
+    'pdtv' => 'PDTV', 
+    'sdtv' => 'SDTV',
+		'ahdtv' => 'AHDTV',
+    'tv-rip' => 'TV-Rip',
+    'tvrip' => 'TV-Rip',
+    'PPV' => 'PPV',
+    'PPVRip' => 'PPVRip',
+    'dsr' => 'DSR',
+    'dsrip' => 'DSRip',
+    'satrip' => 'SATRip',
+    'dthrip' => 'DTHRip',
+    'dvbrip' => 'DVBRip',
+    
+    'vodrip' => 'VODRip',
+    'vodr' => 'VODR',
+    
+    'dvd' => 'DVD',
+    'dvdr' => 'DVD-R',
+    'dvd-5' => 'DVD-5',
+    'dvd-9' => 'DVD-9',
+    'r5' => 'R5',
+    'dvdrip' => 'DVD-Rip',
+    'r6-dvd' =>'R6-DVD',
+    
+    'screener' => 'Screener',
+    'scr' => 'Scr',
+    'dvdscr' => 'DVDSCR',
+    'dvdscreener' => 'DVDSCREENER',
+    'bluray-scr' => 'BluRay-Scr.',
+    'bdscr' => 'BDSCR',
+    
+    'workprint' => 'Workprint',
+    'wp' => 'WP',
+    
+    
+    'webdl' => 'WEBDL',
+    'web' => 'WEBDL',
+    'webrip' => 'Web-Rip',
+    'web-rip' => 'Web-Rip',    
+    'webhd' => 'WebHD', 
+    
+    'ddc' => 'DDC',
+    
+    
+    'bluray' => 'Blu-ray',
+    'blu-ray' => 'Blu-ray',
+    'bdr' => 'BDR', 
+    'bdrip' => 'BDRip',
+    'brrip' => 'BRRip',    
+     
+    'cam' => 'CAM',
+    'camrip' => 'CAMRip',
+    'ts' => 'TS', 
+    'telesync' => 'TeleSync', 
+    'pdvd' => 'PDVD', 
+    'tc' => 'TC', 
+    'telecine' => 'TeleCine'
+  );
 
 	protected static $encodings = array ('divx' => 'DivX', 'xvid' => 'XviD', 'x264' => 'x264', 'h264' => 'h264');
 

@@ -1,5 +1,6 @@
 <?php
-require_once('SceneParser.php');
+namespace ReleaseParser;
+use DateTime;
 
 /**
  * this extends sceneParser by trying to guess certain values
