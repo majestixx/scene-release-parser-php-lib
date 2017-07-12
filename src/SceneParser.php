@@ -32,7 +32,7 @@ class SceneParser {
     'dvd-5' => 'DVD-5',
     'dvd-9' => 'DVD-9',
     'r5' => 'R5',
-    'dvdrip' => 'DVD-Rip',
+    'dvdrip' => 'DVDRip',
     'r6-dvd' =>'R6-DVD',
     
     'screener' => 'Screener',
@@ -55,7 +55,7 @@ class SceneParser {
     'ddc' => 'DDC',
     
     
-    'bluray' => 'Blu-ray',
+    'bluray' => 'BluRay',
     'blu-ray' => 'Blu-ray',
     'bdr' => 'BDR', 
     'bdrip' => 'BDRip',
@@ -74,7 +74,7 @@ class SceneParser {
 
 	protected static $resolutions = array ('sd' => 'SD', '720p' => '720p', '1080p' => '1080p');
 
-	protected static $dubs = array ('dubbed' => 'DUBBED', 'ac3.dubbed' => 'AC3.Dubbed', 'md' => 'MD', 'ld' => 'LineDubbed');
+	protected static $dubs = array ('dubbed' => 'DUBBED', 'ac3.dubbed' => 'AC3.Dubbed', 'md' => 'MD', 'ld' => 'LD');
 
 	protected static $additionalFlagsList = array(
 		'proper' => 'PROPER',

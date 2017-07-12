@@ -1,6 +1,8 @@
-scene-release-parser-php-lib
-============================
+# Warning: Deprecated
+There is a improved version of this library.
+Use [majestixx/scene-release-parser](https://github.com/majestixx/scene-release-parser)  forked from [thcolin/scene-release-parser](https://github.com/thcolin/scene-release-parser).
 
+# scene-release-parser-php-lib
 PHP Library to parse scene release names into their parts.
 
 The library contains two classes: SceneParser and SceneParserGuessr
@@ -44,3 +46,8 @@ print_r($release->getAdditionalFlags()); // Return: Array with COMPLETE & PAL
 For tv shows also the episode and season can be extracted.
 
 SceneParserGuessr works similar, but also provides the methods guessResolution, guessYear and guessLanguage for guessing information that may be missing in the release title.
+
+## Similar projects
+- [peterhellberg/release](https://github.com/peterhellberg/release) (Go)
+- [danielhusar/movie-title](https://github.com/danielhusar/movie-title) (JavaScript)
+- [matiassingers/scene-release](https://github.com/matiassingers/scene-release) (JavaScript)

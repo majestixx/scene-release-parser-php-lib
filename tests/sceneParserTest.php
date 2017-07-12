@@ -1,4 +1,5 @@
 <?php
+
 use ReleaseParser\SceneParser;
 use PHPUnit\Framework\TestCase;
 
@@ -194,9 +195,9 @@ class SceneParserTest extends TestCase
         $this->assertEquals('BluRay', $this->object[1]->getSource()); //22.Jump.Street.GERMAN.DL.AC3.Dubbed.1080p.BluRay.x264-SOV
         $this->assertEquals('BluRay', $this->object[2]->getSource()); //The.Purge.Anarchy.German.DL.AC3.Dubbed.1080p.BluRay.x264-Pleaders
         $this->assertEquals('DVDRip', $this->object[3]->getSource()); //Ein.Leben.fuer.den.Tod.German.2010.LD.DVDRip.XviD-KLASSiGER
-        $this->assertEquals('DVDR', $this->object[4]->getSource()); //Mr.Peabody.And.Sherman.2014.NTSC.DVDR-JFKDVD
-        $this->assertEquals('DVDR', $this->object[5]->getSource()); //Angriff.der.Urzeitmonster.German.2006.COMPLETE.PAL.DVDR-MOViEiT
-        $this->assertEquals('DVDR', $this->object[6]->getSource()); //Anflug.Alpha.1.German.1971.COMPLETE.PAL.DVDR-MOViEiT
+        $this->assertEquals('DVD-R', $this->object[4]->getSource()); //Mr.Peabody.And.Sherman.2014.NTSC.DVDR-JFKDVD
+        $this->assertEquals('DVD-R', $this->object[5]->getSource()); //Angriff.der.Urzeitmonster.German.2006.COMPLETE.PAL.DVDR-MOViEiT
+        $this->assertEquals('DVD-R', $this->object[6]->getSource()); //Anflug.Alpha.1.German.1971.COMPLETE.PAL.DVDR-MOViEiT
         $this->assertEquals('BluRay', $this->object[7]->getSource()); //Wer.spinnt.denn.da.Herr.Doktor.1982.German.1080p.BluRay.x264-iFPD
         $this->assertEquals('BluRay', $this->object[8]->getSource()); //The.Sugarland.Express.1974.MULTi.1080p.BluRay.x264-ULSHD
         $this->assertEquals('BluRay', $this->object[9]->getSource()); //Hannah.Arendt.2012.DUAL.COMPLETE.BLURAY-SharpHD
